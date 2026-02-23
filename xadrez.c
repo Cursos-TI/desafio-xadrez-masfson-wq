@@ -16,7 +16,7 @@ int main() {
     printf("--- Movimentacao das Pecas ---\n\n");
 
     // 1. Torre: Movimento de 5 casas para a direita usando (FOR)
-    printf("Movimento da Torre:\n");
+    printf( "Movimento da Torre:\n");
     for (int i = 1; i <= MOV_TORRE; i++) {
         printf("Direita: %d\n", i);
     }
@@ -38,6 +38,7 @@ int main() {
         printf("Esquerda: %d\n", r);
         r++;
     } while (r <= MOV_RAINHA);
+    printf("\n");
 
     return 0;
 }
