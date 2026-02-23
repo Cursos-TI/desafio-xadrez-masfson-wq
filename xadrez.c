@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-    //Teste 
+    // Teste de sincronização do repositório local com o GitHub
     //definir o movimento de cada peça usando estruturas de repetição (FOR, WHILE, DO-WHILE)
 
 int main() {
