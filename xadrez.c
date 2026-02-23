@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+    //definir o movimento de cada peça usando estruturas de repetição (FOR, WHILE, DO-WHILE)
+
 int main() {
     // Limpa a tela de forma compatível com Windows e GitHub/Linux
     #ifdef _WIN32
