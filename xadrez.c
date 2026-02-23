@@ -1,6 +1,15 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main() {
+int main(){
+    
+    // Ajuste para limpar a tela tanto no Windows quanto no Linux/GitHub
+    #ifdef _WIN32
+        system("cls");
+    #else
+        system("clear");
+    #endif
+
     const int MOV_TORRE = 5;
     const int MOV_BISPO = 5;
     const int MOV_RAINHA = 8;
