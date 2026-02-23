@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main() {
-    // Ajuste para limpar a tela tanto no Windows quanto no Linux/GitHub
+    // Limpa a tela de forma compatível com Windows e GitHub/Linux
     #ifdef _WIN32
         system("cls");
     #else
@@ -13,16 +13,16 @@ int main() {
     const int MOV_BISPO = 5;
     const int MOV_RAINHA = 8;
     
-    printf("--- Movimentação das Peças ---\n\n");
+    printf("--- Movimentacao das Pecas ---\n\n");
 
-    // 1. Torre: Movimento para a Direita usando FOR
+    // 1. Torre: Movimento de 5 casas para a direita usando (FOR)
     printf("Movimento da Torre:\n");
     for (int i = 1; i <= MOV_TORRE; i++) {
         printf("Direita: %d\n", i);
     }
     printf("\n");
 
-    // 2. Bispo: Movimento Diagonal (Cima e Direita) usando WHILE
+    // 2. Bispo: Movimento de 5 casas para a diagonal usando (WHILE)
     printf("Movimento do Bispo:\n");
     int b = 1;
     while (b <= MOV_BISPO) {
@@ -31,25 +31,13 @@ int main() {
     }
     printf("\n");
 
-    // 3. Rainha: Movimento para a Esquerda usando DO-WHILE
+    // 3. Rainha: Movimento de 8 casas para a esquerda usando (DO-WHILE)
     printf("Movimento da Rainha:\n");
     int r = 1;
     do {
         printf("Esquerda: %d\n", r);
         r++;
     } while (r <= MOV_RAINHA);
-    printf("\n");
-
-    // 4. Cavalo: Movimento em L (2 para Baixo, 1 para a Esquerda) usando loops aninhados
-    printf("Movimento do Cavalo:\n");
-    for (int i = 1; i <= 1; i++) { // Loop para a parte vertical
-        int j = 1;
-        while (j <= 2) {
-            printf("Baixo\n");
-            j++;
-        }
-        printf("Esquerda\n");
-    }
 
     return 0;
 }
