@@ -7,7 +7,7 @@
 int main() {
     // Limpa a tela de forma compatível com Windows e GitHub/Linux
     #ifdef _WIN32
-        system("cls");
+         system("cls");
     #else
         system("clear");
     #endif
