@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+    //Teste 
     //definir o movimento de cada peça usando estruturas de repetição (FOR, WHILE, DO-WHILE)
 
 int main() {
