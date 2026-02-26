@@ -5,7 +5,8 @@
  * Desafio de Lógica de Programação - Nível Intermediário
  * Movimentação das peças de xadrez com foco em loops aninhados no Cavalo.
  */
-
+  // Mudança
+  
 int main() {
     // Limpa a tela de forma compatível com Windows e Linux
     #ifdef _WIN32
