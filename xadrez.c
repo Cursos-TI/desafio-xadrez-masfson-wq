@@ -49,14 +49,12 @@ int main() {
     printf("\n");
 
     // 4. Cavalo: Movimento em "L" usando loops FOR aninhados
-    // O primeiro loop cuida da parte vertical e o segundo da horizontal
     printf("Movimento do Cavalo:\n");
-
-    for (int i = 1; i <= 1; i++) { // Loop externo
-        for (int j = 1; j <= CAVALO_VERTICAL; j++) { // Primeiro loop aninhado (Vertical)
+    for (int i = 1; i <= 1; i++) { 
+        for (int j = 1; j <= 2; j++) {
             printf("Baixo\n");
         }
-        for (int k = 1; k <= CAVALO_HORIZONTAL; k++) { // Segundo loop aninhado (Horizontal)
+        for (int k = 1; k <= 1; k++) {
             printf("Esquerda\n");
         }
     }
